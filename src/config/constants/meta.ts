@@ -4,7 +4,7 @@ import { PageMeta } from './types'
 export const DEFAULT_META: PageMeta = {
   title: 'AnpanSwap',
   description:
-    'AnpanSwap launched Swap, Liquidity, Analytics (real-time), Farms, & Stake. Farms & Stake were opened.',
+    'AnpanSwap - DEX, Yield Farming, Staking, Prediction, NFT, Lottery, Referral, Derivatives, Cross-chain Swap, ANPAN Blockchain.',
   image: 'https://anpanswap.finance/images/hero.png',
 }
 

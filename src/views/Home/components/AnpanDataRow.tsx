@@ -43,7 +43,7 @@ const Grid = styled.div`
   }
 `
 
-const emissionsPerBlock = 27
+const emissionsPerBlock = 24
 
 const AnpanDataRow = () => {
   const { t } = useTranslation()
