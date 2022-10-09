@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "@anpanswap-libs/sdk": "^1.0.4",
-    "@anpanswap/uikit": "^0.1.92",
+    "@anpanswap/uikit": "^0.1.99",
     "@binance-chain/bsc-connector": "^1.0.0",
     "@reduxjs/toolkit": "^1.5.0",
     "@types/react": "^17.0.5",

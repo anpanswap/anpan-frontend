@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { SocialLayout } from '@anpanswap/uikit'
 import PageSection from 'components/PageSection'
 import useTheme from 'hooks/useTheme'
 import Hero from './components/Hero'
@@ -16,12 +15,6 @@ import PoolsRow from './components/PoolsRow'
 import FarmsRow from './components/FarmsRow'
 import AnpanDataRow from './components/AnpanDataRow'
 import { WedgeTopLeft, InnerWedgeWrapper, OuterWedgeWrapper, WedgeTopRight } from './components/WedgeSvgs'
-import TeleChatCard from './components/Foot/TeleChatCard'
-import TeleChannelCard from './components/Foot/TeleChannelCard'
-import TwitterCard from './components/Foot/TwitterCard'
-import InstagramCard from './components/Foot/InstagramCard'
-import DocsCard from './components/Foot/DocsCard'
-import GithubCard from './components/Foot/GithubCard'
 
 const StyledHeroSection = styled(PageSection)`
   padding-top: 16px;
@@ -30,27 +23,6 @@ const StyledHeroSection = styled(PageSection)`
   ${({ theme }) => theme.mediaQueries.md} {
     padding-top: 24px;
     justify-content: center;
-  }
-`
-
-const Foot = styled(SocialLayout)`
-  align-items: start;
-  margin-bottom: 0px;
-
-  & > div {
-    grid-column: span 3;
-  }
-
-  ${({ theme }) => theme.mediaQueries.sm} {
-    & > div {
-      grid-column: span 4;
-    }
-  }
-
-  ${({ theme }) => theme.mediaQueries.lg} {
-    & > div {
-      grid-column: span 2;
-    }
   }
 `
 

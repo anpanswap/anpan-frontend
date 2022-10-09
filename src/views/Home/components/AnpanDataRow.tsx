@@ -51,8 +51,8 @@ const AnpanDataRow = () => {
   const burnedBalance = getBalanceNumber(useBurnedBalance(getAnpanAddress()))
   const anpanSupply = totalSupply ? getBalanceNumber(totalSupply) - burnedBalance : 0
   const anpanPriceBusd = usePriceAnpanBusd()
-  const mcap = anpanPriceBusd.times(anpanSupply)
-  const mcapString = formatLocalisedCompactNumber(mcap.toNumber())
+  
+  
   const data = useGetStats()
   const tvl = data ? data.tvl: null
   const tvlf = anpanPriceBusd.times(tvl).plus(new BigNumber(13700))
